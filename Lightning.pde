@@ -1,7 +1,7 @@
 var startX = (int)(Math.random()*301);
 var startY = 0;
-var endX = 0;
-var endY = 150;
+var endX = 300;
+var endY = 300;
 void setup()
 {
   size(400,400);
@@ -21,6 +21,6 @@ void mousePressed()
 {
   var startX = (int)(Math.random()*301);
   var startY = 0;
-  var endX = 0;
-  var endY = 150;
+  var endX = 300;
+  var endY = 300;
 }
