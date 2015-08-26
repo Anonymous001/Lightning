@@ -5,6 +5,7 @@ var endY = 150;
 void setup()
 {
   size(400,400);
+  framerate(10);
   strokeWeight();
   background();
 }
