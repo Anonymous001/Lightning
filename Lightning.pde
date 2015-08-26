@@ -4,7 +4,7 @@ var endX = 0;
 var endY = 150;
 void setup()
 {
-  size(300,300);
+  size(400,400);
   strokeWeight();
   background();
 }
