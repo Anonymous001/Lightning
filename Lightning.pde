@@ -19,7 +19,7 @@ void draw()
 }
 void mousePressed()
 {
-  if(endY>400){
+  if(startY>400){
     startX = (int)(Math.random()*301);
     startY = 0;
     endX = 0;
