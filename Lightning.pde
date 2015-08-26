@@ -1,4 +1,4 @@
-var startX = Math.random()*301;
+var startX = (int)(Math.random()*301);
 var startY = 0;
 var endX = 0;
 var endY = 150;
@@ -19,7 +19,7 @@ void draw()
 }
 void mousePressed()
 {
-  var startX = Math.random()*301;
+  var startX = (int)(Math.random()*301);
   var startY = 0;
   var endX = 0;
   var endY = 150;
