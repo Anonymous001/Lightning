@@ -19,8 +19,8 @@ void draw()
 }
 void mousePressed()
 {
-  var startX = 0;
-  var startY = 150;
+  var startX = Math.random()*301;
+  var startY = 0;
   var endX = 0;
   var endY = 150;
 }
