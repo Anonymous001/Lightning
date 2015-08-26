@@ -1,5 +1,5 @@
 var startX = Math.random()*301;
-var startY = 150;
+var startY = 0;
 var endX = 0;
 var endY = 150;
 void setup()
