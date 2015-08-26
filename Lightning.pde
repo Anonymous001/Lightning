@@ -5,7 +5,7 @@ var endY = 150;
 void setup()
 {
   size(400,400);
-  strokeWeight();
+  strokeWeight(10);
   background();
 }
 void draw()
