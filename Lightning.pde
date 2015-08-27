@@ -7,11 +7,11 @@ void setup()
 {
   size(400,400);
   strokeWeight(2);
-  background(0,0,0);
+  background(255,255,255);
 }
 void draw()
 {
-  stroke(rand,rand,Math,random()*255);
+  stroke(rand,rand,Math,rando);
   endX = startX + (int)(Math.random()*18-9);
   endY = startY + (int)(Math.random()*10);
   line(startX,startY,endX,endY);
