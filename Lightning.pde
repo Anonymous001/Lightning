@@ -2,6 +2,7 @@ var startX = (int)(Math.random()*301);
 var startY = 0;
 var endX = 0;
 var endY = 150;
+var rand = Math.random()*255;
 void setup()
 {
   size(400,400);
@@ -10,7 +11,7 @@ void setup()
 }
 void draw()
 {
-  stroke(0,Math.random()*255,Math.random()*100);
+  stroke(rand,rand,0);
   endX = startX + (int)(Math.random()*18-9);
   endY = startY + (int)(Math.random()*10);
   line(startX,startY,endX,endY);
