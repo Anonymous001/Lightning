@@ -5,12 +5,12 @@ var endY = 150;
 void setup()
 {
   size(400,400);
-  strokeWeight(50);
+  strokeWeight(2);
   background(0,0,0);
 }
 void draw()
 {
-  stroke(Math.random()*255,Math.random()*255,0);
+  stroke(Math.random()*255,0,Math.random()*255);
   endX = startX + (int)(Math.random()*18-9);
   endY = startY + (int)(Math.random()*10);
   line(startX,startY,endX,endY);
