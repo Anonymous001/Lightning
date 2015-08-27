@@ -11,7 +11,7 @@ void setup()
 }
 void draw()
 {
-  stroke(rand,rand,0);
+  stroke(rand,rand,Math,random()*255);
   endX = startX + (int)(Math.random()*18-9);
   endY = startY + (int)(Math.random()*10);
   line(startX,startY,endX,endY);
