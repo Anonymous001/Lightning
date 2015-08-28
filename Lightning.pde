@@ -7,7 +7,7 @@ void setup()
 {
   size(400,400);
   strokeWeight(2);
-  background(0);
+  background(100,100,100);
 }
 void draw()
 {
