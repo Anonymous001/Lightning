@@ -1,4 +1,4 @@
-var startX = (int)(Math.random()*301);
+var startX = mouseX;
 var startY = 0;
 var endX = 0;
 var endY = 150;
@@ -7,7 +7,7 @@ void setup()
 {
   size(400,400);
   strokeWeight(2);
-  background(255,255,255);
+  background(0);
 }
 void draw()
 {
@@ -21,7 +21,7 @@ void draw()
 void mousePressed()
 {
   if(startY>400){
-    startX = (int)(Math.random()*301);
+    startX = mouseX;
     startY = 0;
     endX = 0;
     endY = 150;
